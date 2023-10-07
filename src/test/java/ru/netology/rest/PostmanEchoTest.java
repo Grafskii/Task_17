@@ -35,7 +35,7 @@ public class PostmanEchoTest {
         driver = null;
     }
     @Test
-    void shouldTestV2() {
+    void shouldTest() {
         driver.findElement(By.cssSelector("[data-test-id=name] input")).sendKeys("Иванов Дмитрий");
         driver.findElement(By.cssSelector("[data-test-id=phone] input")).sendKeys("+79993500000");
         driver.findElement(By.cssSelector("[data-test-id=agreement]")).click();
